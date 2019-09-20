@@ -1,0 +1,86 @@
+body {
+    margin: 0px; 
+    padding: 0px; 
+    
+}
+
+.container{
+   width: 100%;
+}
+
+
+
+.table{
+    -webkit-box-shadow: 0px 0px 33px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 33px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 33px -2px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    margin-left: 5%;
+}
+.table .header{
+    background: rgb(237,8,224);
+    background: linear-gradient(50deg, rgba(237,8,224,1) 0%, rgba(76,23,125,1) 52%, rgba(85,17,167,1) 77%, rgba(78,16,171,1) 85%, rgba(48,52,255,1) 100%);
+    padding: 20px 60px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+    color: white;
+    text-align: center;
+}
+.table .content ul{
+    color: rgba(192, 192, 192,0.9);
+    padding-left: 0;
+    transition: 0.5s;
+    text-align: center;
+}
+.table .content ul h6:hover:nth-child(1){
+    border-left: 15px solid  rgb(237,8,224);
+    border-right: 15px solid  rgb(237,8,224);
+}
+.table .content ul h6:hover:nth-child(2){
+    border-left: 15px solid  rgb(237,8,224);
+    border-right: 15px solid  rgb(237,8,224);
+}
+.table .content ul h5:hover:nth-child(3){
+    border-left: 15px solid  rgb(237,8,224);
+    border-right: 15px solid  rgb(237,8,224);
+}
+.table .content ul h5:hover:nth-child(4){
+    border-left: 15px solid  rgb(237,8,224);
+    border-right: 15px solid  rgb(237,8,224);
+}
+.table .content ul h5:hover:nth-child(5){
+    border-left: 15px solid  rgb(237,8,224);
+    border-right: 15px solid  rgb(237,8,224);
+}
+.table .button {
+    position: relative;
+    background: rgb(237,8,224);
+    background: linear-gradient(50deg, rgba(237,8,224,1) 0%, rgba(76,23,125,1) 52%, rgba(85,17,167,1) 77%, rgba(78,16,171,1) 85%, rgba(48,52,255,1) 100%);
+    padding: 20px 0 ;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 60%;
+    height: 0;
+    color: black;
+    text-align: center;
+    padding-bottom: 15%;
+    border-radius: 20px;
+
+}
+.table .button a{
+    color: white;
+    margin-bottom: 20%;
+    text-decoration: none;
+}
+.design-tb-2 .table:nth-child(2){
+    transform: scale(1.1);
+}
+
+.design-tb-2{
+    display : flex ; 
+    width: 50% ; 
+    margin: 0 auto ; 
+    margin-top: 5% ;
+}
